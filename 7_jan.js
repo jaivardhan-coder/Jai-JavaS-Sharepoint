@@ -100,3 +100,12 @@ document.write(`<h1>result : ${result}</h1>`)
 let v=55
 let t=+v
 document.write(`<h1>result : ${t}</h1>`)
+
+//assignment opeeraator
+let j=90
+j=j+10//standard method-- mtlb ki 90 mai 10 add hoga fir 20 bhi hoga
+j=j+20
+j+=23
+j*=2
+j/=2
+document.write(`<h1>result: ${j}</h1>`)
