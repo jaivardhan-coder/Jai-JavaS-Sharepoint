@@ -125,4 +125,93 @@
 // }
    
 
-//
+//9. Menu-Driven Login System
+// let choice=prompt("Enter Your login by- \nA.Email\nB. Contact\nC. Exit")
+// if(choice=="A"){
+//     let User_Email=prompt("Enter the Email-ID")
+//     let User_password=prompt("Enter the password")
+//     if ((User_Email=="user@example.com")&&(User_password=="password1234")){
+//                 document.write(`Login Succesfull With Email-ID`)
+//             }else{
+//                 document.write(`Sorry! Please Enter Valid Phone Number`)
+//             }
+//     }else if(choice=="B"){
+//             let user_phone=prompt("Enter the contact number")
+//             let user_otp=prompt("Enter the OTP")
+//             if((user_phone==123456789) && ( user_otp==1234)){
+//             document.write(`Login Succesfull With Phone Number`)
+//             }else{
+//                 document.write(`Sorry!Please Enter Valid Phone Number`)
+//             }
+//         }else if(choice=="C"){
+//                 document.write(`<h1>You Exit Successfully </h1>`)
+//               }
+
+
+// 10- KBC Game
+
+let game=prompt("NAMASKAR,SATSHRIAKAL Kaun Banega Arabpati Mai Apka Swagat hai.🙏 \n jese ki sabhi ko maloom hai Jitne Sahi Jawab utne Khel mai Jude Rahe.✅ To chaliye Suru Karte hai.. Kya Ap Tyar Hai??? \n1: Yes \n2: No")
+let total_score=0
+let correct_answer=0
+let wrong_answer=0
+let skip_answer=0
+if(game=="1"){
+    let question1=prompt("To chaliye Suru Karte hai.. \n Phela Sawal Apki Computer screen par📺 \nWhich data type is NOT supported in JavaScript? \nOptions are : \na: String\nb: Boolean \nc: Integer \nd: Undefined \npress S for Skip the question")
+    if(question1=="c"){
+        correct_answer += 1
+        total_score += 1000
+    }else if(question1=="S"){
+        skip_answer += 1
+    }else{
+        wrong_answer+=1
+    }
+
+    let question2=prompt("Dusra Sawal Apki Computer Screen par: \nWhich of the following is used to declare a variable in JavaScript? \nApke options hai \na: let \nb: var \nc: const \nd: All above \npress S for Skip the question")
+    if(question2=="d"){
+        correct_answer += 1
+        total_score += 2000
+    }else if(question2=="S"){
+        skip_answer += 1
+    }else{
+        wrong_answer+=1
+    }
+    let question3=prompt("Teesra Sawal Apki Computer Screen par: \nWhich data type is NOT supported in JavaScript? \nApke options hai \na: string \nb: boolean \nc: integer  \nd: undefined \npress S for Skip the question")
+    if(question3=="c"){
+        correct_answer += 1
+        total_score += 3000
+    }else if(question3=="S"){
+        skip_answer += 1
+    }else{
+        wrong_answer+=1
+    }let question4=prompt("Chautha Sawal Apki Computer Screen par: \nWhat is the result of typeof NaN in JavaScript? \nApke options hai \na: number \nb: NaN \nc: Undefined \nd: object \npress S for Skip the question")
+    if(question4=="a"){
+        correct_answer += 1
+        total_score += 5000
+    }else if(question4=="S"){
+        skip_answer += 1
+    }else{
+        wrong_answer+=1
+    }let question5=prompt("Panchva sawal  Apki Computer Screen par: \nHow can you convert a string 123 into a number in JavaScript? \nApke options hai \na: parseInt (123) \nb: parseInt(123) \nc: +123 \nd: All above \npress S for Skip the question")
+    if(question5=="d"){
+        correct_answer += 1
+        total_score += 10000
+    }else if(question5=="S"){
+        skip_answer += 1
+    }else{
+        wrong_answer+=1
+    }
+    document.write(`Bohot Bohot Bhadhaiya Apka Total Score Game mai hai: ${total_score}  `)
+document.write(` Total Number Sahi jawab ke 5 mai se apke dwara : ${correct_answer}  `)
+document.write(` Total Number sawal jo ki apne skip kre hai Game mai apke dwara: ${skip_answer}  `)
+document.write(`  galat sawal  Game mai apke dwara: ${wrong_answer}`)
+
+}else{
+    document.write(`\nThank You ! Try Next Time  ...... `)
+}
+
+ let rating=prompt("Agar Khel Pasand Aya Ho To Hume Rating Zarur De. Dhanyavad! 5⭐ Mai Se")
+ if(rating>=1&&rating<=5){
+    document.write(`Bohot Bohot Dhanyavad Hame ${rating}⭐ Rating dene k lie`)
+ }else{
+    document.write(`\nKripya Rating 1⭐-- 5⭐ ke beech mai de . Dhanyavad`)
+ }
