@@ -1,94 +1,107 @@
-// Student Grading System
+//1-- Student Grading System
+
 // let marks=(prompt("Enter Your Marks Out of 100 "))
 // if(marks>=90&&marks<=100){
-// document.write(`Your Marks is: ${marks} - Grade A`)
+// document.write(`<h2>Your Marks is: ${marks} - Grade A</h2>`)
 // } else if(marks>=80&&marks<=89){
-//     document.write(`Your Marks is: ${marks} - Grade B`)
+//     document.write(`<h2>Your Marks is: ${marks} - Grade B</h2>`)
 // } else if(marks>=70&&marks<=79){
-//     document.write(`Your Marks is: ${marks} - Grade C`)
+//     document.write(`<h2>Your Marks is: ${marks} - Grade C</h2>`)
 // } else if(marks>=60&&marks<=69){
-//     document.write(`Your Marks is: ${marks} - Grade D`)
+//     document.write(`<h2>Your Marks is: ${marks} - Grade D</h2>`)
 // } else if(marks>=50&&marks<=59){
-//     document.write(`Your Marks is: ${marks} - Grade E`)
+//     document.write(`<h2>Your Marks is: ${marks} - Grade E</h2>`)
 // } else if(marks>=0&&marks<=49){
-//     document.write(`Your Marks is: ${marks} - Grade F`)
+//     document.write(`<h2>Your Marks is: ${marks} - Grade F</h2>`)
 // } else{
 //     document.write(`Invalid Marks`)
 // }
 
+// ------------------------------------------------------------------------------------------------------------------------------------
+//2-- Tax Calculation
 
-//Tax Calculation
 // let CarBrand=prompt("Enter the Car Brand Options Are- Mahindra,Audi,Jaguar,Mercedes") 
 // let CostPrice=parseFloat(prompt('Enter The price in Lakhs ')) 
- 
 // if((CarBrand=="Mahindra"|| CarBrand=="mahindra" )&&(CostPrice>=700000 && CostPrice <=1000000)){
-//     document.write(`Your Tax Wil be in Mahindra car is:  ${ CostPrice*0.05}`)
+//     document.write(`<h2>Your Tax Wil be in Mahindra car is:  ${ CostPrice*0.05}</h2>`)
 // }else if((CarBrand=="Audi"|| CarBrand=="audi")&&(CostPrice>=1000000 && CostPrice<=1500000)){
-//     document.write(`Your Tax Wil be in Audi car is: ${CostPrice*10/100}`)
+//     document.write(`<h2>Your Tax Wil be in Audi car is: ${CostPrice*10/100}</h2>`)
 // }else if((CarBrand=="Jaguar"||CarBrand=="jaguar")&&(CostPrice>=1500000 && CostPrice<=2000000)){
-//     document.write(`Your Tax Wil be in Jaguar car is: ${CostPrice*25/100}`)
+//     document.write(`<h2>Your Tax Wil be in Jaguar car is: ${CostPrice*25/100}</h2>`)
 // }else if((CarBrand=="Mercedes"|| CarBrand=="mercedes")&&(CostPrice>=2000000 && CostPrice<=2500000)){
-//     document.write(`Your Tax Wil be in Mercedes car is: ${CostPrice*30/100}`)
+//     document.write(`<h2>Your Tax Wil be in Mercedes car is: ${CostPrice*30/100}</h2>`)
 // }else {
-//     document.write("Wrong option OR Wrong Price")
+//     document.write("<h2>Wrong option OR Wrong Price</h2>")
 // }
 
-//Finding The middle number
+// -------------------------------------------------------------------------------------------------------------------------------------
+//3-- Finding The middle number
+
 // let num1=prompt("Enter the First number")
 // let num2=prompt("Enter the Second number")
 // let num3=prompt("Enter the Third number")
 // if((num2>num1&&num1>num3)|| num2<num1&&num1<num3){
-//     document.write(`Middle number of ${num1}, ${num2}, ${num3} is = ${num1}`)
+//     document.write(`<h2>Middle number of ${num1}, ${num2}, ${num3} is = ${num1}</h2>`)
 // }else if((num2 > num3 && num2 < num1 )|| (num2< num3 && num2> num1)){
-//     document.write(`Middle number of ${num1}, ${num2}, ${num3} is = ${num2}`)
+//     document.write(`<h2>Middle number of ${num1}, ${num2}, ${num3} is = ${num2}</h2>`)
 // } else{
-//     document.write(`Middle number of ${num1}, ${num2}, ${num3} is = ${num3}`)
+//     document.write(`<h2>Middle number of ${num1}, ${num2}, ${num3} is = ${num3}</h2>`)
 // }
 
-//finding the biggest number
+// ------------------------------------------------------------------------------------------------------------------------------------
+//4-- finding the biggest number
+
 // let num1=parseFloat(prompt("Enter the First number"))
 // let num2=parseFloat(prompt("Enter the Second number"))
 // let num3=parseFloat(prompt("Enter the Third number"))
 // if((num1>=num2)&&(num1>=num3)){
-// document.write(`Biggest Number is : ${num1}`)
+// document.write(`<h2>Biggest Number is : ${num1}</h2>`)
 // } else if((num2>=num1)&&(num2>=num3)){
-//     document.write(`Biggest Number is : ${num2}`)
+//     document.write(`<h2>Biggest Number is : ${num2}</h2>`)
 // } else{
-//     document.write(`Biggest Number is : ${num3}`)
+//     document.write(`<h2>Biggest Number is : ${num3}</h2>`)
 // }
 
-//5-authentication 
+// ------------------------------------------------------------------------------------------------------------------------------------
+//5-- Authentication 
+
 // let username=prompt("Enter the Username")
 // let userpassword=prompt("enter the password")
 // if(username==("user1")&& userpassword==("pass@123")){
-// document.write(`authentication succesful`)
+// document.write(`<h2>authentication succesful</h2>`)
 // }else{
-//     document.write(`authentication fail`)
+//     document.write(`<h2>authentication fail</h2>`)
 // }
 
+// -------------------------------------------------------------------------------------------------------------------------------------
 // 6-calculate class attendence
+
 // let AttendencePercent=parseInt(prompt("Enter your attendence in Percent ,to cheak if you are Eligible for exam"))
 // if(AttendencePercent>=75){
-//     document.write(`You are Eligible`)
+//     document.write(`<h2>You are Eligible</h2>`)
 
 // }else{
-//     document.write(`You are not Eligible`)
+//     document.write(`<h2>You are not Eligible</h2>`)
 // }
 
-// 6.Library Charge Calculation
+// -------------------------------------------------------------------------------------------------------------------------------------
+// 7.Library Charge Calculation
+
 // let Days=parseInt(prompt("Enter the Number of day you borrow a book"))
 //     if(Days>=5&&Days<=1){
-//         document.write(`Your total amount to be paid is: ${Days*2}`)
+//         document.write(`<h2>Your total amount to be paid is: ${Days*2}</h2>`)
 //     } else if(Days>=6&&Days<=10){
-//         document.write(`Your total amount to be paid is: ${(Days*2)*3}`)
+//         document.write(`<h2>Your total amount to be paid is: ${(Days*2)*3}</h2>`)
 //     } else if(Days>=11&&Days<=15){
-//         document.write(`Your total amount to be paid is: ${((Days*2)*3)*4}`)
+//         document.write(`<h2>Your total amount to be paid is: ${((Days*2)*3)*4}</h2>`)
 //     } else{
-//         document.write(`Your total amount to be paid is: ${(((Days*2)*3)*4)}`)
+//         document.write(`<h2>Your total amount to be paid is: ${(((Days*2)*3)*4)}</h2>`)
 //     }
 
 
+// -------------------------------------------------------------------------------------------------------------------------------------
 // 8.UPSC Selection Process
+
 // let age=parseInt(prompt("Enter the age"))
 // if(age>=21&&age<=32){
 //     let  graduate=prompt("Enter if you are graduate or not graduate")
@@ -101,56 +114,59 @@
 //                 if(MainScore>=80){
 //                     let InterviewScore=parseFloat(prompt("Enter The Score of interview out of 100"))
 //                      if(InterviewScore>=80){
-//                         document.write(`Congratulation You Clear UPSC Exam`)
+//                         document.write(`<h2>Congratulation You Clear UPSC Exam</h2>`)
 //                      }else{
-//                         document.write(`You failed the Interview`)
+//                         document.write(`<h2>You failed the Interview</h2>`)
 //                      }
 //                 }else{
-//                     document.write(`You failed the Mains`)
+//                     document.write(`<h2>You failed the Mains</h2>`)
 //                 }
 //             }else{
-//                 document.write(`You failed the Prelims`)
+//                 document.write(`<h2>You failed the Prelims</h2>`)
 //             }
         
 //     }else{
-//         document.write(`You are not elligible Due to Nationality`)
+//         document.write(`<h2>You are not elligible Due to Nationality</h2>`)
 //     }
-    
-//     }else{
-//         document.write(`Your Graduation is not Eligible for UPSC Exam`)
+//     <h2>
+// //     }else{
+//         document.write(`<h2>Your Graduation is not Eligible for UPSC Exam</h2>`)
 
 //     }
 // }else{
-//     document.write(`Your age is not Eligible for UPSC Exam`)
+//     document.write(`<h2>Your age is not Eligible for UPSC Exam</h2>`)
 // }
    
+// --------------------------------------------------------------------------------------------------------------------------------------
 
 //9. Menu-Driven Login System
+
 // let choice=prompt("Enter Your login by- \nA.Email\nB. Contact\nC. Exit")
 // if(choice=="A"){
 //     let User_Email=prompt("Enter the Email-ID")
 //     let User_password=prompt("Enter the password")
 //     if ((User_Email=="user@example.com")&&(User_password=="password1234")){
-//                 document.write(`Login Succesfull With Email-ID`)
+//                 document.write(`<h2>Login Succesfull With Email-ID</h2>`)
 //             }else{
-//                 document.write(`Sorry! Please Enter Valid Phone Number`)
+//                 document.write(`<h2>Sorry! Please Enter Valid Phone Number</h2>`)
 //             }
 //     }else if(choice=="B"){
 //             let user_phone=prompt("Enter the contact number")
 //             let user_otp=prompt("Enter the OTP")
 //             if((user_phone==123456789) && ( user_otp==1234)){
-//             document.write(`Login Succesfull With Phone Number`)
+//             document.write(`<h2>Login Succesfull With Phone Number</h2>`)
 //             }else{
-//                 document.write(`Sorry!Please Enter Valid Phone Number`)
+//                 document.write(`<h2>Sorry!Please Enter Valid Phone Number</h2>`)
 //             }
 //         }else if(choice=="C"){
-//                 document.write(`<h1>You Exit Successfully </h1>`)
+//                 document.write(`<h2>You Exit Successfully </h2>`)
 //               }
 
+// ------------------------------------------------------------------------------------------------------------------------------------
 
 // 10- KBC Game
 
-let game=prompt("NAMASKAR,SATSHRIAKAL Kaun Banega Arabpati Mai Apka Swagat hai.🙏 \n jese ki sabhi ko maloom hai Jitne Sahi Jawab utne Khel mai Jude Rahe.✅ To chaliye Suru Karte hai.. Kya Ap Tyar Hai??? \n1: Yes \n2: No")
+let game=prompt("<NAMASKAR,SATSHRIAKAL Kaun Banega Arabpati Mai Apka Swagat hai.🙏 \n jese ki sabhi ko maloom hai Jitne Sahi Jawab utne Khel mai Jude Rahe.✅ To chaliye Suru Karte hai.. Kya Ap Tyar Hai??? \n1: Yes \n2: No")
 let total_score=0
 let correct_answer=0
 let wrong_answer=0
@@ -200,18 +216,18 @@ if(game=="1"){
     }else{
         wrong_answer+=1
     }
-    document.write(`Bohot Bohot Bhadhaiya Apka Total Score Game mai hai: ${total_score}  `)
-document.write(` Total Number Sahi jawab ke 5 mai se apke dwara : ${correct_answer}  `)
-document.write(` Total Number sawal jo ki apne skip kre hai Game mai apke dwara: ${skip_answer}  `)
-document.write(`  galat sawal  Game mai apke dwara: ${wrong_answer}`)
+    document.write(`<h2>Bohot Bohot Bhadhaiya Apka Total Score Game mai hai: ${total_score} </h2> `)
+document.write(`<h2> Sahi sawal k uttar  5 mai se apke dwara : ${correct_answer} </h2> `)
+document.write(` <h2>skip kre gae sawal  khel mai apke dwara: ${skip_answer} </h2> `)
+document.write(` <h2> galat sawal ke uttar 5 mai se khel mai apke dwara: ${wrong_answer}</h2>`)
 
 }else{
-    document.write(`\nThank You ! Try Next Time  ...... `)
+    document.write(`<h2>Thank You ! Try Next Time  ......</h2> `)
 }
 
  let rating=prompt("Agar Khel Pasand Aya Ho To Hume Rating Zarur De. Dhanyavad! 5⭐ Mai Se")
  if(rating>=1&&rating<=5){
-    document.write(`Bohot Bohot Dhanyavad Hame ${rating}⭐ Rating dene k lie`)
+    document.write(`<h2>Bohot Bohot Dhanyavad Hame ${rating}⭐ Rating dene k lie</h2>`)
  }else{
-    document.write(`\nKripya Rating 1⭐-- 5⭐ ke beech mai de . Dhanyavad`)
+    document.write(`<h2>Kripya Rating 1⭐-- 5⭐ ke beech mai de . Dhanyavad</h2>`)
  }
