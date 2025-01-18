@@ -42,4 +42,8 @@ document.write(`
         <h4 style="text-align: center;">Thank you For shopping</h4>
 
     </div>
-   `)
+//    `)
+
+
+
+
