@@ -72,5 +72,6 @@
 //     let a=25
 //     let res=a*a
 // document.write(`Square of Your Number is : ${a} = ${res}`)
+// return res;
 // }
 // squre()
